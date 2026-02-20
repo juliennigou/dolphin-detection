@@ -1,0 +1,26 @@
+# data
+data/
+datasets/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# system
+.DS_Store
+
+# secrets
+.env
+.aws/
+*.pem
+
