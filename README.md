@@ -1,12 +1,13 @@
 # 🐬 Dolphin Fin Detection and Identification Project
 
+| Figure A - Dolphin in the Wild | Figure B - Fin Detection Result |
+| --- | --- |
+| ![Raw dolphin image](assets/readme/dolphin_.png) | ![Dolphin fin detection with bounding box](assets/readme/dolphin_boundingbox.png) |
+| *Original field image before model inference.* | *Model output with dolphin fin localized by a bounding box.* |
 
-|                                                                                 |                                                                                                |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Figure A - Dolphin in the Wild** Original field image before model inference. | **Figure B - Fin Detection Result** Model output with dolphin fin localized by a bounding box. |
-
-
-
+**Legend**
+- `Figure A`: raw dolphin image collected in field conditions.
+- `Figure B`: automatic dolphin fin detection used before human review.
 
 A computer vision project designed to support dolphin monitoring and conservation from photo datasets.
 The work is organized in two stages:
